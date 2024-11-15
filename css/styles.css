@@ -3,51 +3,161 @@ body {
   
 }
 
-.nav-list {
+a {
+  text-decoration: none;
+  font-style: normal;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.origin-logo {
+  color: #4D5AE5;
+  ;
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #2E2F42;
+  
+}
+
+.nav-list a {
+    color: #2E2F42; /* Колір для посилань у навігаційному меню */
+} 
+
+.nav-list a:hover,
+.nav-list a:hover {
+  color: #404BBF;
+} 
+
+.nav-list a:active {
+  color: #404BBF;
+  text-decoration: underline;
+}
+
 .nav-list-item {
+  font-weight: 500;
+  line-height: 1.5;
+  
 }
-.address-list {
+
+.address-list a{
+  color: #434455;
+
 }
+
+.address-list a:hover,
+.address-list a:hover {
+  color: #404BBF;
+
+}
+
 .address-list-item {
+  line-height: 1.5;
 }
+
 .hero-section {
+  background-color: #2E2F42;
 }
+
 .hero-section-title {
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
 }
+
 .hero-section-button {
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
 }
-.benefits {
+/*.benefits {
 }
 .benefits-list {
 }
 .benefits-item {
-}
+}*/
 .benefits-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 .benefits-desc {
+  line-height: 1.5;
 }
-.team-section {
-}
+
+/*.team-section {
+}*/
+
 .team-section-title {
+
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
 }
+
+/*
 .team-section-list {
 }
 .team-section-item {
-}
+}*/
+
 .team-section-foto-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
 }
-.foto-desc {
+.team-section-item .foto-desc {
+  line-height: 1.5;
+  text-align: center;
+
 }
-.portfolio {
-}
+/*.portfolio {
+}*/
 .portfolio-title {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
 }
-.portfolio-list {
+
+/*.portfolio-list {
 }
 .portfolio-item {
-}
+}*/
+
 .portfolio-foto-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: left;
 }
+
+.foto-desc {
+  line-height: 1.5;
+  text-align: left;
+}
+
+.white-logo {
+  color: #F4F4FD;
+}
+
 .footer-desc {
+  line-height: 1.5;
+  text-align: left;
+ 
 }
