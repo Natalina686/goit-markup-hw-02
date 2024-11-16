@@ -136,13 +136,17 @@ ul {
   background-color: #FFFFFF;
 }
 
-.team-section-foto-title,
-.team-section-item .foto-desc {
+.team-section-foto-title {
   text-align: center;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
+.team-section-item .foto-desc {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 
 .portfolio {
   background-color: #FFFFFF;
