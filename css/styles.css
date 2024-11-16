@@ -129,13 +129,17 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  
+}
+
+.team-section-item {
   background-color: #FFFFFF;
 }
 
 .team-section-foto-title,
 .team-section-item .foto-desc {
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -153,7 +157,7 @@ ul {
 }
 
 .foto-desc {
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
