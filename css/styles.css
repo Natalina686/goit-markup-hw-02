@@ -119,8 +119,16 @@ ul {
   background-color: #F4F4FD;
 }
 
+.team-section-list {
+  background-color: #FFFFFF;
+}
+
 .team-section-title {
   text-transform: capitalize;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-section-foto-title,
@@ -134,6 +142,15 @@ ul {
 .portfolio {
   background-color: #FFFFFF;
 }
+
+.portfolio-title {
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .foto-desc {
   line-height: 1.5;
   letter-spacing: 0.02em;
