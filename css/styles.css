@@ -96,19 +96,23 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .benefits-title {
   font-weight: 500;
   text-align: left;
+  line-height: 1.2;
+  font-size: 20px;
 }
 
 .benefits-desc,
 .team-section-foto-title,
 .portfolio-foto-title {
-  font-size: 20px; 
+  letter-spacing: 0.02em;
   font-weight: 500; 
-  line-height: 1.2; 
+  line-height: 1.5; 
 }
 
 .team-section {
@@ -122,11 +126,17 @@ ul {
 .team-section-foto-title,
 .team-section-item .foto-desc {
   text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 
 .portfolio {
   background-color: #FFFFFF;
+}
+.foto-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .white-logo,
@@ -141,4 +151,5 @@ footer {
 .footer-desc {
   line-height: 1.5;
   text-align: left;
+  letter-spacing: 0.02em;
 }
