@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2E2F42;
+  color: #434455 ;
   background-color: #FFFFFF;
   
 }
@@ -19,7 +19,7 @@ ul {
 }*/
 
 .origin-logo {
-  color: #4D5AE5;
+  color: #2e2f42;
 }
 
 .logo-link {
@@ -27,8 +27,9 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  color: #2E2F42;
-  
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .nav-list a {
@@ -50,7 +51,16 @@ ul {
 .nav-list-item {
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   
+}
+
+.address-list-item-link {
+  letter-spacing: 0.02em
+}
+
+.address-navi {
+  font-style: normal;
 }
 
 .address-list a,
@@ -90,6 +100,7 @@ color: #FFFFFF;
   background-color: #4D5AE5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .hero-section-button:hover,
@@ -114,6 +125,7 @@ text-align: left;
 }
 .benefits-desc {
   line-height: 1.5;
+  letter-spacing: 0.02em
 }
 
 .team-section {
@@ -121,17 +133,18 @@ text-align: left;
 }
 
 .team-section-title {
-
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 }
 
-/*
-.team-section-list {
+
+/*.team-section-list {
+  
 }
-.team-section-item {
+/*.team-section-item {
 }*/
 
 .team-section-foto-title {
@@ -146,8 +159,9 @@ text-align: center;
   text-align: center;
 
 }
-/*.portfolio {
-}*/
+.portfolio {
+  background-color: #FFFFFF
+}
 .portfolio-title {
 font-size: 36px;
 line-height: 1.11;
@@ -166,16 +180,18 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: left;
+text-transform: capitalize;
 }
 
 .foto-desc {
   line-height: 1.5;
   text-align: left;
+  letter-spacing: 0.02em
 }
 
 .white-logo,
 .footer-desc {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 footer {
@@ -185,5 +201,6 @@ footer {
 .footer-desc {
   line-height: 1.5;
   text-align: left;
+  letter-spacing: 0.02em
  
 }
